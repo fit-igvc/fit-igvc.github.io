@@ -259,6 +259,10 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
+a {
+  color:black;
+  text-decoration: underline;
+}
 
 .outer {
   overflow: auto;
@@ -274,9 +278,10 @@ Full-Width Styles
 
 .main_inner {
   position: relative;
-  max-width: 70%;
+  max-width: 50%;
   padding: 20px 10px;
   margin: 0 auto;
+  margin-left: 1vw;
 }
 
 #forkme_banner {
@@ -413,6 +418,7 @@ Full-Width Styles
     padding: 14px 24px;
     background-color: grey;
     border: 1px auto;
+    outline: 2 black;
     border-radius: 15px 15px 15px 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -436,8 +442,12 @@ Full-Width Styles
     box-shadow: none;
 }
 
-#mainmenu ul li a:link {
-  color:#ffffff;
+#contactinfo {
+  padding: 1vw;
+}
+
+#mainmenu nav ul li a:visited {
+  color:white;
 }
 
 #contactinfo {
@@ -484,6 +494,15 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
+
+/******************************************************************************
+                              fit.html only
+******************************************************************************/
+
+#fitstudents {
+  font-size:14px;
+}
+
 
 
 
