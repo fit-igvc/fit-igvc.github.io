@@ -503,6 +503,21 @@ a {
   font-size:14px;
 }
 
+#milestones {
+  margin-top:20px;
+  margin-bottom: 20px;
+  font-size:14px;
+  color : black;
+  background-color: #ADD8E6;
+}
+
+#documents {
+  text-align:center;
+  margin-bottom:40px;
+  font-size: 14px;
+  color: black;
+  background-color: #ADD8E6;
+}
 
 
 
